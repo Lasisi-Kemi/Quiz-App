@@ -203,7 +203,7 @@ body {
 
 .correct {
     background-color: #0000ff;
-
+    color: #fff;
 }
 
 .quizapp-answebuttons-btn:hover:not:not([disabled]){
@@ -217,6 +217,7 @@ body {
 
 .incorrect {
     background-color: red;
+    color: #fff;
 }
 
 @media (max-width: 768px) {
