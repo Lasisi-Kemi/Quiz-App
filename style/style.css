@@ -201,26 +201,6 @@ body {
     border-radius: 4px;
 }
 
-@keyframes nextbuttonglowing {
-    0% {
-      background-color: rgb(16, 14, 14);
-      box-shadow: 0 0 5px rgb(16, 14, 14);
-    }
-
-    50% {
-      background-color: #282923;
-      box-shadow: 0 0 20px #282923;
-    }
-
-    100% {
-      background-color: black;
-      box-shadow: 0 0 5px black;
-    }
-  }
-  #quizapp-nextbtn {
-    animation: nextbuttonglowing 1300ms infinite;
-}
-
 .correct {
     background-color: #0000ff;
 
