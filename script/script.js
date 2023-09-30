@@ -72,7 +72,7 @@ const questions = [
         ]
     },
     {
-        question: "Which CSS property is used to control the spacing between lines of text?",
+        question: "Which HTML tag is used to create a horizontal line?",
         answers: [
             {text: "line", correct: false},
             {text: "hl", correct: false},
@@ -161,15 +161,6 @@ const questions = [
             {text: "padding-spacing", correct: false},
         ]
     },
-    {
-        question: "Which HTML tag is used to create a hyperlink that opens in a new browser window or tab?",
-        answers: [
-            {text: `<a href="#" target="_blank">`, correct: true},
-            {text: `<link href="#" target="_new">`, correct: false},
-            {text: `<a href="#" new>`, correct: false},
-            {text: ` <hyperlink href="#" target="_blank"></hyperlink>`, correct: false},
-        ]
-    }
 ]; 
 
 const questionTags = document.getElementById('quizapp-questiontag');
