@@ -89,7 +89,88 @@ const questions = [
             {text: "Content, Padding, Border, Margin", correct: true},
         ]
     },
-];
+    {
+        question: "Which HTML tag is used to define a paragraph?",
+        answers: [
+            {text: "p", correct: true},
+            {text: "para", correct: false},
+            {text: "text", correct: false},
+            {text: "pg", correct: false},
+        ]
+    },
+    {
+        question: "In CSS, which property is used to control the size of fonts in a web page?",
+        answers: [
+            {text: "text-size", correct: false},
+            {text: "font-style", correct: false},
+            {text: "font-size", correct: true},
+            {text: "text-font", correct: false},
+        ]
+    },
+    {
+        question: "Which HTML tag is used to insert an image?",
+        answers: [
+            {text: "picture", correct: false},
+            {text: "img", correct: true},
+            {text: "image", correct: false},
+            {text: "imgsrc", correct: false},
+        ]
+    },
+    {
+        question: "What is the default display property for a <div> element in CSS?",
+        answers: [
+            {text: "inline", correct: false},
+            {text: "block", correct: true},
+            {text: "inline-block", correct: false},
+            {text: "none", correct: false},
+        ]
+    },
+    {
+        question: "Which CSS property is used to change the font style to italic?",
+        answers: [
+            {text: "text-style", correct: false},
+            {text: "italic", correct: false},
+            {text: "font-style", correct: true},
+            {text: "font-italic", correct: false},
+        ]
+    },
+    {
+        question: "What is the purpose of the CSS property 'float'?",
+        answers: [
+            {text: "To move an element to the right", correct: false},
+            {text: "To make an element transparent", correct: false},
+            {text: "To align text within an element", correct: false},
+            {text: "To allow text to wrap around an element", correct: true},
+        ]
+    },
+    {
+        question: "Which HTML tag is used for defining an input field for text in a form?",
+        answers: [
+            {text: "input", correct: true},
+            {text: "text", correct: false},
+            {text: "textfield", correct: false},
+            {text: "textbox", correct: false},
+        ]
+    },
+    {
+        question: "Which CSS property is used to specify the space between cells in a table?",
+        answers: [
+            {text: "table-spacing", correct: false},
+            {text: "cell-spacing", correct: false},
+            {text: "border-spacing", correct: true},
+            {text: "padding-spacing", correct: false},
+        ]
+    },
+    {
+        question: "Which HTML tag is used to create a hyperlink that opens in a new browser window or tab?",
+        answers: [
+            {text: `<a href="#" target="_blank">`, correct: true},
+            {text: `<link href="#" target="_new">`, correct: false},
+            {text: `<a href="#" new>`, correct: false},
+            {text: ` <hyperlink href="#" target="_blank"></hyperlink>`, correct: false},
+        ]
+    }
+]; 
 
 const questionTags = document.getElementById('quizapp-questiontag');
 const answerButtons = document.getElementById('quizapp-answerbuttons');
