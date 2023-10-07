@@ -174,7 +174,13 @@ function startQuiz() {
     questionIndex = 0;
     score= 0;
     nextButton.innerHTML = "Next";
+    shuffleQuestions(); // Shuffle questions before starting
     showQuestion();
+}
+
+// Create the shuffleQuestion function
+function shuffleQuestions() {
+    questions.sort(() => Math.random() - 0.5);
 }
 
 function showQuestion() {

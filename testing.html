@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="kemi">kemi</p>
+    <p id="kemi">kemi</p>
+    <p id="kemi">kemi</p>
+    <p id="kemi">kemi</p>
+
+    <script>
+        var kemi = ["kemi", "kemi"];
+        // console.log(kemi);
+
+        function ayo(){
+            for(i=0; i<kemi.length; i++){
+            var style = "font-size: 40px; border-radius: 10px; border: 1px solid blue; background: pink; color: purple";
+            console.log("%c" + kemi[i], style);
+            }
+        }
+
+        ayo();
+    </script>
+</body>
+</html>
